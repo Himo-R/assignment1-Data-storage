@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws Exception  {
         System.out.println("himo");
         DivideInputFileIntoRuns ob =new DivideInputFileIntoRuns();
-        ob.DivideInputFileIntoRuns("Index.bin",4);
+        ob.DivideInputFileIntoRuns("Index.bin",5);
 
     }
 }

@@ -4,12 +4,13 @@ import java.util.ArrayList;
 
 public class DivideInputFileIntoRuns {
 
-
+//this function generate string for paths files according number of runs
    ArrayList<String> nameGenerator(int fileLength, int runSize){
-        float numberOfRuns=((fileLength/8)/runSize);
+        int numberOfRuns=((fileLength/8)/runSize);
+        //System.out.println(numberOfRuns);
         int counter=0;
        ArrayList<String> ar = new ArrayList<String>();
-       for(float i=0;i<numberOfRuns;i++) {
+       for(int i=0;i<numberOfRuns;i++) {
             counter++;
             String strI="Run"+counter+".bin";
             ar.add(strI);
@@ -21,7 +22,7 @@ public class DivideInputFileIntoRuns {
     void DivideInputFileIntoRuns (String Inputfilename, int runSize)throws Exception
     {
         RandomAccessFile mainFile = new RandomAccessFile(Inputfilename, "rw");
-        ArrayList<String> pathes = nameGenerator(Inputfilename.length(),runSize);
+        ArrayList<String>pathes=nameGenerator((int)mainFile.length(),runSize);
 
         for(int j=0;j<(mainFile.length()/8)/runSize;j++)//loop number of runs <how many run>(number of record / run size)
         {
@@ -39,10 +40,10 @@ public class DivideInputFileIntoRuns {
 
         //here i get idea to solve it , i use %
         //record number % run size =will get me the last run size
-        RandomAccessFile fileStore2 = new RandomAccessFile("remainder.bin", "rw");
+        RandomAccessFile lastRun = new RandomAccessFile("remainder.bin", "rw");
         long remainRecord=(mainFile.length()/8)%runSize;
         for (int i = 0; i < remainRecord * 2; i++)//will loop N*2 times each run (i put *2 that record have tow integer)
-            fileStore2.writeInt(mainFile.readInt());// will write record
+            lastRun.writeInt(mainFile.readInt());// will write record
 
 
 
