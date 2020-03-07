@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="954b50b9-1e5b-415f-8375-6dc9a5bcd3d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/data storage ASSignment1/SortEachRunOnMemoryAndWriteItBack$1record.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data storage ASSignment1/SortEachRunOnMemoryAndWriteItBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data storage ASSignment1/nameGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortEachRunOnMemoryAndWriteItBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nameGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data storage ASSignment1/DivideInputFileIntoRuns.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data storage ASSignment1/DivideInputFileIntoRuns.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data storage ASSignment1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data storage ASSignment1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DivideInputFileIntoRuns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideInputFileIntoRuns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -84,13 +91,15 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DivideInputFileIntoRuns.java</url>
           <line>21</line>
-          <properties class="DivideInputFileIntoRuns" method="DivideInputFileIntoRuns">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7,8 +7,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws Exception  {
         System.out.println("himo");
-        DivideInputFileIntoRuns ob =new DivideInputFileIntoRuns();
-        ob.DivideInputFileIntoRuns("Index.bin",5);
+        String indexPathName ="Index.bin";
+        DivideInputFileIntoRuns ob1 =new DivideInputFileIntoRuns();
+        ob1.DivideInputFileIntoRuns(indexPathName,5);
+
+        SortEachRunOnMemoryAndWriteItBack ob2=new SortEachRunOnMemoryAndWriteItBack();
+        ob2.SortEachRunAndWriteItBack(indexPathName,5);
+
+
 
     }
 }
