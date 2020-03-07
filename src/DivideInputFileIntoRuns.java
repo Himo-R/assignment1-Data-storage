@@ -44,7 +44,7 @@ public class DivideInputFileIntoRuns extends nameGenerator {
         */
 
 
-             /*                /////   just for test it's just print /////
+                 /*   /////   just for test it's just print /////
         mainFile.seek(0);
         for(int j=0;j<pathes.size();j++)//loop number of runs<how many runs> (number of record / run size)
         {
@@ -68,20 +68,10 @@ public class DivideInputFileIntoRuns extends nameGenerator {
             }
         }
 
-              */
 
-        /*
-        RandomAccessFile fileStore3 = new RandomAccessFile("remainder.bin", "rw");
-        long remainRecord1=(mainFile.length()/8)%runSize;
-        for (int i = 0; i < remainRecord1 * 2; i++)//will loop N*2 times each run (i put *2 that record have tow integer)
-        {
-            System.out.print(fileStore3.readInt()+"   ");// will write record
-            if(i%2!=0){System.out.println(" ");}
-        }
-        System.out.println("-----------Run number : "+ (((mainFile.length()/8)/runSize)+1)+ "-------------");
 
-         */
-                            //////  JUST FOR TEST //////
+
+                            //////  JUST FOR TEST //////  */
 
     }
 }
