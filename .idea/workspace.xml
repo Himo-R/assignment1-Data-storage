@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="954b50b9-1e5b-415f-8375-6dc9a5bcd3d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/binarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data storage ASSignment1/DivideInputFileIntoRuns.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data storage ASSignment1/DivideInputFileIntoRuns.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data storage ASSignment1/SortEachRunOnMemoryAndWriteItBack$1record.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data storage ASSignment1/SortEachRunOnMemoryAndWriteItBack$1record.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data storage ASSignment1/SortEachRunOnMemoryAndWriteItBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data storage ASSignment1/SortEachRunOnMemoryAndWriteItBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DivideInputFileIntoRuns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideInputFileIntoRuns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortEachRunOnMemoryAndWriteItBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortEachRunOnMemoryAndWriteItBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,19 +85,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/SortEachRunOnMemoryAndWriteItBack.java</url>
           <line>47</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/binarySearch.java</url>
+          <line>5</line>
+          <properties class="binarySearch" method="binarySeach">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

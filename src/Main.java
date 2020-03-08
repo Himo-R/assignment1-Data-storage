@@ -9,11 +9,13 @@ public class Main {
         System.out.println("himo");
         String indexPathName ="Index.bin";
         DivideInputFileIntoRuns ob1 =new DivideInputFileIntoRuns();
-        ob1.DivideInputFileIntoRuns(indexPathName,5);
+        ob1.DivideInputFileIntoRuns(indexPathName,4);
 
         SortEachRunOnMemoryAndWriteItBack ob2=new SortEachRunOnMemoryAndWriteItBack();
-        ob2.SortEachRunAndWriteItBack(indexPathName,5);
-
+        ob2.SortEachRunAndWriteItBack(indexPathName,4);
+        binarySearch ob3=new binarySearch();
+        int x =ob3.binarySeach("run1.bin",3);
+        System.out.println("the offset of "+21 + "is : "+ x);
 
 
     }
